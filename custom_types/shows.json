@@ -1,0 +1,56 @@
+{
+  "Main": {
+    "show": {
+      "type": "Group",
+      "config": {
+        "fields": {
+          "date": {
+            "type": "Date",
+            "config": {
+              "label": "date"
+            }
+          },
+          "city": {
+            "type": "Text",
+            "config": {
+              "label": "city"
+            }
+          },
+          "lineup": {
+            "type": "Text",
+            "config": {
+              "label": "lineup"
+            }
+          },
+          "venue": {
+            "type": "Text",
+            "config": {
+              "label": "venue"
+            }
+          },
+          "time": {
+            "type": "Text",
+            "config": {
+              "label": "time"
+            }
+          },
+          "event_text": {
+            "type": "Text",
+            "config": {
+              "label": "event text"
+            }
+          },
+          "event_link": {
+            "type": "Link",
+            "config": {
+              "label": "event link",
+              "select": null,
+              "allowTargetBlank": true
+            }
+          }
+        },
+        "label": "show"
+      }
+    }
+  }
+}

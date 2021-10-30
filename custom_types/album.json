@@ -1,0 +1,66 @@
+{
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "uid"
+      }
+    },
+    "album_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "album title"
+      }
+    },
+    "album_paragraph" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,strong,em,hyperlink",
+        "label" : "album paragraph"
+      }
+    },
+    "bandcamp_link" : {
+      "type" : "Link",
+      "config" : {
+        "label" : "bandcamp link",
+        "select" : null
+      }
+    },
+    "bandcamp_text" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "bandcamp text"
+      }
+    },
+    "album_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "album image"
+      }
+    },
+    "song" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "song_title" : {
+            "type" : "Text",
+            "config" : {
+              "label" : "song title"
+            }
+          },
+          "song_link" : {
+            "type" : "Link",
+            "config" : {
+              "label" : "song link",
+              "select" : null
+            }
+          }
+        },
+        "label" : "song"
+      }
+    }
+  }
+}

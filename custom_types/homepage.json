@@ -1,0 +1,38 @@
+{
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "uid"
+      }
+    },
+    "main_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ {
+          "name" : "mobile",
+          "width" : 600,
+          "height" : 600
+        } ],
+        "label" : "main image"
+      }
+    },
+    "about" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,strong,em,hyperlink",
+        "label" : "about"
+      }
+    },
+    "album_link" : {
+      "type" : "Boolean",
+      "config" : {
+        "placeholder_false" : "no",
+        "placeholder_true" : "yes",
+        "default_value" : false,
+        "label" : "show album link?"
+      }
+    }
+  }
+}
