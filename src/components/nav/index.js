@@ -67,12 +67,13 @@ return(
         <a href='/shows'><li>Shows</li></a>
         <a href="mailto:hi@babytooth.band"><li>Contact</li></a>
         <a href="/photos"><li>Photos</li></a>
-        <a href="/album"><li>EP</li></a>
+        <a href="/album"><li>Music</li></a>
       </ul>
 
       <ul>
         <a href="https://www.facebook.com/babytoothband/"><li>fb</li></a>
         <a href="https://www.instagram.com/bb__tt__hh"><li>ig</li></a>
+        <a href="https://budtapes.bandcamp.com/album/thataway"><li>bc</li></a>
       </ul>
     </Links>
   </Nav>

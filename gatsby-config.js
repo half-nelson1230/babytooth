@@ -4,7 +4,12 @@ const linkResolver = require('./src/templates/utilities/linkResolver')
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`
 })
-
+const myCustomQueries = {
+    xs: '(max-width: 500px)',
+    sm: '(max-width: 750px)',
+    md: '(max-width: 1200px)',
+    l: '(max-width: 1600px)',
+};
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -44,6 +49,12 @@ module.exports = {
         '~': path.join(__dirname, 'src/'),
       },
     },
+    {
+  resolve: "gatsby-plugin-breakpoints",
+  options: {
+    queries: myCustomQueries,
+  }
+},
     {
      resolve: "gatsby-plugin-web-font-loader",
      options: {
