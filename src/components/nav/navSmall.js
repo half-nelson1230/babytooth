@@ -25,7 +25,7 @@ li.menu{
 `
 
 const Top = styled.div`
-z-index: 2;
+z-index: 20;
 position: fixed;
 width: calc(100% - 20px);
 display: flex;
@@ -55,7 +55,7 @@ display: flex;
 flex-wrap: wrap;
 top: 0; left: 0; bottom: 0; right: 0;
 background-color: #EFEEED;
-z-index: 1;
+z-index: 10;
 transition: 0.5s ease-in;
 justify-content: center;
 align-items: center;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import styled from 'styled-components';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
@@ -99,7 +99,6 @@ const Player = (props) => {
     return {
       name: song.song_title,
       src: song.song_link.url,
-
     }
   })
 

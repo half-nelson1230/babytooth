@@ -7,6 +7,7 @@ import Layout from 'layouts/index'
 import { Date, Link, RichText } from 'prismic-reactjs';
 import {graphql} from 'gatsby'
 
+
 const AlbumContain = styled.div`
 display: flex;
 width: 100%;
@@ -17,6 +18,7 @@ height: calc(100vh - 240px);
   padding-bottom:0px;
   margin: 20px 0 50px 0;
   height: auto;
+  min-height: calc(100vh - 320px);
 }
 `
 
