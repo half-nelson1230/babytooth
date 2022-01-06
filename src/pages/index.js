@@ -45,7 +45,7 @@ const Homepage = ({data}) => {
       </ContentLil>
       <ContentBig>
       <ShowCard
-            showdate = {topShow.showdate}
+            showdate = {topShow.date}
             city = {topShow.city}
             lineup = {topShow.lineup}
             venue = {topShow.venue}
