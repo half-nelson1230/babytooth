@@ -184,7 +184,7 @@ const Footer = () =>{
     <a href="mailto: hi@babytooth.band"><Envelope src={mailIcon}/></a>
     <a href="https://www.facebook.com/babytoothband/" target="_blank"><h4>fb</h4></a>
     <a href="https://www.instagram.com/bb__tt__hh" target="_blank"><h4>ig</h4></a>
-    <a href="https://babytoothmusic.bandcamp.com" target="_blank"><h4>bc</h4></a>
+    <a href="https://babytoothmusic.bandcamp.com" target="_blank"><h4>bc</h4></a> 
     </Sm>
     <Copyright>© 2023 Babytooth. Design & Development by <a href="https://mynameis.al" target="_blank">Al Nelson</a>. Development help from Annie Fifer.</Copyright>
     </FootyContent>
