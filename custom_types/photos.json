@@ -1,0 +1,20 @@
+{
+  "Main" : {
+    "image" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "pic" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ ],
+              "label" : "pic"
+            }
+          }
+        },
+        "label" : "image"
+      }
+    }
+  }
+}
