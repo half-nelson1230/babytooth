@@ -40,6 +40,12 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/favicon-32x32.png',
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
